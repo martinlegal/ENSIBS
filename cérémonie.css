@@ -1,0 +1,19 @@
+
+.containerceremony{
+    width: 70%;
+    margin: auto; /* Centre le contenu horizontalement*/
+}
+.button-ceremony{
+    background-color: green;/* Couleur de fond du boutton*/
+    color: white;/*Couleur du texte*/
+    border: 5px solid black;/*Bordure dorée*/
+    padding: 15px 40px;/* Espacement intérieur*/
+    text-align: center;/*Alignement du texte*/
+    font-size: 18px;/*Taille de la police*/
+    font-weight: bold;/* Poids de la police*/
+    display: block;
+    margin: 10px 20px;/*Marges*/ 
+    border-radius: 10px;/* 10: coins arrondis*/
+    box-shadow: 0 10px 15px green;/* 0:effet, Ombre*/
+    font-family: 'Times New Roman';/* Typographie*/
+}

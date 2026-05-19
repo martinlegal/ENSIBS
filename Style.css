@@ -1,0 +1,200 @@
+.button-style{
+    background-color: green; /* Couleur de fond */
+    border: none; /* Pas de bordure */
+    color: white; /* Couleur du texte */
+    padding: 15px; /* Espacement interne */
+    text-align: center; /* Alignement du texte */
+    text-decoration: none; /* Pas de soulignement */
+    font-size: 18px; /* Taille de la police */
+    margin: 4px; /* Espacement externe */
+    cursor: pointer; /* Forme du curseur */
+    font-weight: bold; /* Mettre le texte en gras */
+    Display: inline-block; /* Affichage en ligne */
+    width:205px; /* Largeur du bouton */
+}   
+
+.containerleftright {
+    display: flex; /*rend les objets flexibles*/
+    justify-content: space-between; /*espace entre les objets*/
+    width: 70%; /*largeur de la section*/
+    margin: auto; /*centrage de la section*/
+}   
+
+.left, .right {
+    width: 60%; /*largeur de chaque partie*/
+    padding: 5px; /*espacement interne*/
+}
+.main{
+    display: flex; /*rend les objets flexibles*/
+    flex: 1; /*prend tout l'espace disponible*/
+    width: 80%; /*largeur de la section*/
+    margin: auto; /*centrage de la section*/
+}
+
+.content{
+    width:70%; /*largeur de la section*/
+    padding: 20px; /*espacement interne*/
+}
+
+.sectionsleft {
+    width: 40%; /*largeur de la section*/
+    display:flex; /*rend les objets flexibles*/
+    flex-direction: column; /*aligne les objets en colonne*/
+    padding: 20px; /*espacement interne*/
+}
+
+.sectionleft {
+    background-color:#f0f0f0; /*couleur de fond*/
+    width:230px; /*largeur de la section*/
+    padding: 10px; /*espacement interne*/
+    margin:10px; /*espacement externe*/
+}
+
+h1 {
+    text-align: center; /*centrage du texte*/
+    color: #333; /*couleur du texte*/
+}
+
+.button-container{
+    width:70%;
+    margin: auto; /*centrage de la section*/
+    text-align: center;
+}
+
+/*Ceremony*/
+.containerceremony{
+width: 70%;
+margin: auto; /* Centre le contenu horizontalement*/
+}
+
+.button-ceremony{
+background-color: green;/* Couleur de fond du boutton*/
+color: white;/*Couleur du texte*/
+border: 5px solid black;/*Bordure dorée*/
+padding: 15px 40px;/* Espacement intérieur*/
+text-align: center;/*Alignement du texte*/
+font-size: 18px;/*Taille de la police*/
+font-weight: bold;/* Poids de la police*/
+margin: 10px 60px;/*Marges*/ 
+border-radius: 10px;/* 10: coins arrondis*/
+box-shadow: 0 10px 15px green;/* 0:effet, Ombre*/
+}
+
+/*Admission*/
+.container_informations{
+width: 80%;
+margin: 2px auto; /*Centre le contenu*/
+padding: 30px;
+}
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse; /*bordures adjacentes des cellules*/
+}
+th{
+text-align: left;
+}
+/*Table2*/
+caption{
+caption-side: top;/*Légende au-dessus du tableau*/
+font-size: 18px;
+margin-bottom: 10px;/*Espace entre la légende et le tableau*/
+font-weight: bold;
+text-align: center;/*Centrer la légende*/
+color: green; /*Couleur verte*/
+}
+
+.Bleu{
+background-color: #ADD8E6; /* Couleur de fond bleu clair */
+padding: 25px 100px; /* Espacement intérieur */
+margin: 150px; /* Centrage horizontal avec une marge verticale */
+}
+
+.Button_admission{
+  display: block;
+  background-color: #ADD8E6; /* Couleur de fond du bouton */
+  color: white; /* Couleur du texte */
+  border: 5px solid black; /* Bordure */
+  padding: 25px 100px; /* Espacement intérieur */
+  margin: 10px auto; /* Centre horizontalement */
+  text-align: center; /* Alignement du texte */
+  font-size: 18px; /* Taille de la police */
+  font-weight: bold; /* Poids de la police */
+  box-shadow: 0 10px 15px black; /* Ombre */
+}
+
+.Button_admission:hover {
+    background-color: green; /* Couleur de fond du bouton au survol */
+}
+
+#titre_principale{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;/*Transformer le texte en majuscule et LOWERCASE pour minuscule*/
+    letter-spacing: 2px;
+}
+
+#Iframe_ENSIBS{
+border: 2px solid #2c3e50;
+border-radius: 5px; /*Coins arrondis*/
+}
+#Iframe_ENSIBS_a{
+color: #1980b9; /* Couleur du texte des liens*/
+text-decoration: none; /* Supprime la décoration par défaut (soulignement)*/
+font-weight: bold; /*Texte en gras*/
+}
+#Iframe_ENSIBS_a:hover{
+text-decoration: underline; /*Soulignement du texte au survol*/
+color: green;
+}
+
+        
+body.UBS-page {
+  background-color: #001f3f; 
+  margin: 0;
+  padding: 0;
+  color: white; 
+  font-family: Arial;
+}
+.top-UBS {
+  display: flex;
+  align-items: center;         
+  padding: 20px ;
+  background-color: white;  
+}
+.photo-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.photo-container {
+    width: 280px;
+    height: 200px;
+}
+.photo-container img {
+    width: 100%;
+    height: 100%;
+}
+.photo-container .titre {
+    background: black; 
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.description-section {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: navy; 
+}
